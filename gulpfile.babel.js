@@ -13,4 +13,4 @@ gulp.task('styles', () => {
     console.error('styles task not implemented yet');
 });
 
-gulp.task('default', ['scripts', 'styles']);
+gulp.task('build', ['scripts', 'styles']);
