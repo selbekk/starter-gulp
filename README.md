@@ -6,16 +6,20 @@ This starter gives you everything you need to get started with Enonic and Gulp.
 
 Use Enonic's `toolbox.sh init-project` script to initialize your project:
 
-    ./path/to/toolbox.sh init-project -n <your-project-name> -r https://github.com/selbekk/starter-gulp.git
+```bash
+./path/to/toolbox.sh init-project -n com.example.MyApp -r https://github.com/selbekk/starter-gulp.git
+```
 
 ## Tasks
 
 As a matter of convention, this starter interfaces all tasks through npm
 scripts. The ones set up for you are:
 
-    npm run build       # Runs your gradle build, which in turn runs gulp
-    npm run deploy      # Deploys application to your local installation
-    npm run watch       # Continuously builds and deploys your application
+```bash
+npm run build       # Runs your gradle build, which in turn runs gulp
+npm run deploy      # Deploys application to your local installation
+npm run watch       # Continuously builds and deploys your application
+```
 
 ## Gulp tasks
 
